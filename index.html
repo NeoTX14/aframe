@@ -7,7 +7,7 @@
     <a-scene background="color: grey">
       <a-asset-item id="car" src="book f.glb"></a-asset-item>
       
-      <a-entity position="-2 2 -9" gltf-model="#car"
+      <a-entity position="-2 2 -9" glb-model="#car"
             scale="0.01 0.01 0.01"
             animation="property: rotation; dur: 10000;
                        dir: normal; loop: true;
@@ -26,7 +26,7 @@
       
       <a-plane src="window.jpg" position="-3 1.5 -2" height="1.5" width="2"
                rotation="0 45 0"></a-plane>
-      <a-plane src="bands.jpg" position="0 1.5 -3" height="2" width="1.5"
+      <a-plane src="bands.jpg" position="2 1.5 -3" height="2" width="1.5"
                rotation="0 0 0"></a-plane>
       
       <a-entity movement-controls="fly: true" position="0 0 0">
